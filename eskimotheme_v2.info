@@ -1,0 +1,14 @@
+name = eskimotheme_v2
+description = Version 2 of the inuits drupal site theme
+core = 6.x
+engine = phptemplate
+
+stylesheets[all] = blueprint/screen.css
+stylesheets[print] = blueprint/print.css
+stylesheets[all] = css/style.css
+
+regions [news] = News
+regions[expertise] = Expertise
+regions[twitter] = Twitter
+regions[recent] = Recent Blogposts
+  
