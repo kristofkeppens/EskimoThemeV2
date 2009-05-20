@@ -1,7 +1,25 @@
 @CHARSET "UTF-8";
 #wolfseyes {
+	height: 120px;
 	background: url("../images/groteogen.png");
 }
 #logo {
 	background: url("../images/");
+}
+
+body {
+	background-color: white;
+	background-image: url("../images/background.png");
+	background-repeat: repeat-x;
+	background-position: top right;
+}
+#main-container {
+	border: 1px solid black;
+	background-color: white;
+}
+#header-container {
+	height: 120px;
+	}
+#viewanker {
+	height: 350px;
 }

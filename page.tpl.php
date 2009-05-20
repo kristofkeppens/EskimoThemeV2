@@ -21,8 +21,8 @@
 </head>
 <body id="body" class="<?php print $body_classes;?>">
 
-  <div class="container">
-    <div class="container">
+  <div class="container" id="main-container">
+    <div class="container" id="header-container">
       <div class="span-12" id="logo">
       </div>
       <div class="span-12 last" id="menu">
@@ -67,11 +67,27 @@
     </div>
     <div class="container">
     <div class="span-16" id="rightcontainer">
-      <div class="span-16" id="news"></div>
-      <div class="span-8" id="recentblog"></div>
+      <div class="span-16" id="news">
+        <?php if($news):?>
+        <?php print $news;?>
+        <?php endif;?>
+      </div>
+      <div class="span-8" id="recentblog">
+        <?php if($recent):?>
+        <?php print $recent?>
+        <?php endif;?>
+      </div>
       <div class="span-8" id="middlecontainer">
-        <div class="span-8" id="expertise"></div>
-        <div class="span-8" id="twitter"></div>
+        <div class="span-8" id="expertise">
+          <?php if($expertise):?>
+          <?php print $expertise;?>
+          <?php endif;?>
+        </div>
+        <div class="span-8" id="twitter">
+          <?php if($twitter):?>
+          <?php print $twitter?>
+          <?php endif;?>
+        </div>
       </div>
     </div>
     <div class="span-8 last" id="links">
