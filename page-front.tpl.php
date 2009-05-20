@@ -64,31 +64,13 @@
     <div class="span-24 last" id="wolfseyes">
     </div>
     <div class="span-24 last" id="viewanker">
+      <?php if($viewanker):?>
+      <?php print $viewanker?>
+      <?php endif;?>
     </div>
     <div class="container">
     <div class="span-16" id="rightcontainer">
       <div class="span-16" id="news">
-       <?php
-      if ($breadcrumb != '') {
-        print $breadcrumb;
-      }
-
-      if ($tabs != '') {
-        print '<div class="tabs">'. $tabs .'</div>';
-      }
-
-      if ($messages != '') {
-        print '<div id="messages">'. $messages .'</div>';
-      }
-      
-      if ($title != '') {
-        print '<h2 class="title">'. $title .'</h2>';
-      }      
-
-      print $help; // Drupal already wraps this one in a class      
-
-      print $content;
-    ?>
         <?php if($news):?>
         <?php print $news?>
         <?php endif;?>
@@ -98,13 +80,13 @@
         <?php print $recent?>
         <?php endif;?>
       </div>
-      <div class="span-8" id="middlecontainer">
+      <div class="span-8 last" id="middlecontainer">
         <div class="span-8" id="expertise">
           <?php if($expertise):?>
           <?php print $expertise?>
           <?php endif;?>
         </div>
-        <div class="span-8" id="twitter">
+        <div class="span-8 last" id="twitter">
           <?php if($twitter):?>
           <?php print $twitter?>
           <?php endif;?>
@@ -112,9 +94,25 @@
       </div>
     </div>
     <div class="span-8 last" id="links">
+    <ul>
+      <li id="planet">
+        <a href="planet.inuits.be">Planet</a>
+      </li>
+      <li id="floss">
+        <a href="floss.inuits.be">FlossCal</a>
+      </li>
+      <li id="technical">
+        <a href="technical.inuits.be">Technical</a>
+      `</li>
+    </ul>
     </div>
     <div class="span-8 last">
     </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="span-24 last" id="footer">
+      Copyright - 2009 - Inuits.be 
     </div>
   </div>
 <?php print $closure;?>
