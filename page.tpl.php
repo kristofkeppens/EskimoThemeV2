@@ -63,11 +63,9 @@
     </div>
     <div class="span-24 last" id="wolfseyes">
     </div>
-    <div class="span-24 last" id="viewanker">
-    </div>
     <div class="container">
     <div class="span-16" id="rightcontainer">
-      <div class="span-16" id="news">
+      <div class="span-24 last" id="news">
        <?php
       if ($breadcrumb != '') {
         print $breadcrumb;
@@ -89,27 +87,8 @@
 
       print $content;
     ?>
-        <?php if($news):?>
-        <?php print $news?>
-        <?php endif;?>
       </div>
-      <div class="span-8" id="recentblog">
-        <?php if($recent):?>
-        <?php print $recent?>
-        <?php endif;?>
-      </div>
-      <div class="span-8" id="middlecontainer">
-        <div class="span-8" id="expertise">
-          <?php if($expertise):?>
-          <?php print $expertise?>
-          <?php endif;?>
-        </div>
-        <div class="span-8" id="twitter">
-          <?php if($twitter):?>
-          <?php print $twitter?>
-          <?php endif;?>
-        </div>
-      </div>
+
     </div>
     <div class="span-8 last" id="links">
     </div>

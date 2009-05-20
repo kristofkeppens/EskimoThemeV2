@@ -57,12 +57,14 @@
           <li>
             <a href="/content/rolling-out-open-source-masses">benefits</a>
           </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
         </ul>
       </div>
       </div>
     </div>
-    <div class="span-24 last" id="wolfseyes">
-    </div>
+
     <div class="span-24 last" id="viewanker">
       <?php if($viewanker):?>
       <?php print $viewanker?>
@@ -96,13 +98,13 @@
     <div class="span-8 last" id="links">
     <ul>
       <li id="planet">
-        <a href="planet.inuits.be">Planet</a>
+        <a href="http://planet.inuits.be">Planet</a>
       </li>
       <li id="floss">
-        <a href="floss.inuits.be">FlossCal</a>
+        <a href="http://floss.inuits.be">FlossCal</a>
       </li>
       <li id="technical">
-        <a href="technical.inuits.be">Technical</a>
+        <a href="http://technical.inuits.be">Technical</a>
       `</li>
     </ul>
     </div>
