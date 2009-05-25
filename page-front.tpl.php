@@ -55,7 +55,7 @@
       <div class="span-4 last">
         <ul>
           <li>
-            <a href="/content/rolling-out-open-source-masses">benefits</a>
+            <a href="/content/rolling-out-open-source-masses">Benefits</a>
           </li>
           <li>
             <a href="/contact">Contact</a>
@@ -98,7 +98,7 @@
     <div class="span-8 last" id="links">
     <ul>
       <li id="planet">
-        <a href="http://planet.inuits.be">Planet</a>
+        <a href="/aggregator/sources/1">Planet</a>
       </li>
       <li id="floss">
         <a href="http://floss.inuits.be">FlossCal</a>

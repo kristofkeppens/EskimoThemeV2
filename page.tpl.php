@@ -55,7 +55,10 @@
       <div class="span-4 last">
         <ul>
           <li>
-            <a href="/content/rolling-out-open-source-masses">benefits</a>
+            <a href="/content/rolling-out-open-source-masses">Benefits</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -63,9 +66,8 @@
     </div>
     <div class="span-24 last" id="wolfseyes">
     </div>
-    <div class="container">
-    <div class="span-16" id="rightcontainer">
-      <div class="span-24 last" id="news">
+    <div class="container" id="contentcontainer">
+      <div class="<?php if($right){print "span-18";}else{print "span-24 last";}?>" id="content">
        <?php
       if ($breadcrumb != '') {
         print $breadcrumb;
@@ -88,12 +90,17 @@
       print $content;
     ?>
       </div>
-
+      <div class="span-6 last" id="rightsidebar">
+        <?php if($right):?>
+        <?php print $right?>
+        <?php endif?>
+      </div>
     </div>
-    <div class="span-8 last" id="links">
     </div>
-    <div class="span-8 last">
-    </div>
+  </div>
+  <div class="container">
+    <div class="span-24 last" id="footer">
+      Copyright - 2009 - Inuits.be 
     </div>
   </div>
 <?php print $closure;?>
