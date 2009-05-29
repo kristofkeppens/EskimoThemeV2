@@ -66,13 +66,20 @@
     </div>
     <div class="span-24 last" id="wolfseyes">
     </div>
-    <div class="container" id="contentcontainer">
-      <div class="span-24 last" id="content">
-       <?php
-      if ($breadcrumb != '') {
-        print $breadcrumb;
-      }
-
+    <div class="container">
+      <div class="span-24 last">
+        <?php if($tags):?>
+        <?php print $tags?>
+        <?php endif;?>
+      </div>
+      <div class="span-5" id="techmenu">
+        <?php if($techmenu):?>
+        <?php print $techmenu?>
+        <?php endif;?>
+      </div>
+      <div class="span-19 last" id="content">
+      <?php
+      
       if ($tabs != '') {
         print '<div class="tabs">'. $tabs .'</div>';
       }
@@ -90,7 +97,6 @@
       print $content;
     ?>
       </div>
-    </div>
     </div>
   </div>
   <div class="container">

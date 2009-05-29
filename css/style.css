@@ -7,6 +7,7 @@
 */
 
 /*
+
 	General
 	
 	*/
@@ -40,7 +41,7 @@ body {
 
 #menu {
 	padding-top: 15px;
-	}
+}
 	
 #menu ul li{
 	height : 30px;
@@ -139,7 +140,7 @@ body {
 }
 
 #planet {
-	background-image: url("../images/images/ButtonLinks_09.png");
+	background-image: url("../images/images/images/icebutton_09.png");
 	background-repeat: no-repeat;
 }
 
@@ -225,12 +226,21 @@ body {
 }
 
 .block a, .block a:link {
-	color: rgb(200,200,200);
+	color: rgb(160,160,160);
 }
 
 .block a:visited, .block a:hover {
-	color: rgb(200,200,200);
+	color: rgb(25,25,20);
 }
+
+.block h3{
+	padding-top: 1em;
+	padding-left: 5px;
+	}
+
+.block .content {
+	padding-left: 15px;
+	}
 
 #viewanker h3 {
 	color: rgb(200,200,200);
@@ -310,4 +320,32 @@ div.node {
 
 #contact-mail-page {
 	margin-left: 15px;
+}
+
+.view-Event-Calendar {
+	padding-left: 15px;
+}
+
+#techmenu ul li {
+	list-style: none;
+	line-height: 24px;
+	display: block;
+}
+
+#block-menu-menu-people ul li {
+	list-style: none;
+	line-height: 24px;
+	display: block;
+}
+
+.calendar-calendar td .inner div, .calendar-calendar td .inner div a {
+	background: none;
+}	
+
+.calendar-calendar td.empty {
+	background: none;
+}
+
+#block-block-1 a:link, #block-block-1 a:visited, #block-block-1 a:hover {
+	color: rgb(200,200,200);
 }

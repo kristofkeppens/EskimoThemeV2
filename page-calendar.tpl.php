@@ -67,7 +67,7 @@
     <div class="span-24 last" id="wolfseyes">
     </div>
     <div class="container" id="contentcontainer">
-      <div class="span-24 last" id="content">
+      <div class="<?php if($right){print "span-18";}else{print "span-24 last";}?>" id="content">
        <?php
       if ($breadcrumb != '') {
         print $breadcrumb;
@@ -89,6 +89,11 @@
 
       print $content;
     ?>
+      </div>
+      <div class="span-6 last" id="rightsidebar">
+        <?php if($right):?>
+        <?php print $right?>
+        <?php endif?>
       </div>
     </div>
     </div>

@@ -101,10 +101,10 @@
         <a href="/aggregator/sources/1">Planet</a>
       </li>
       <li id="floss">
-        <a href="http://floss.inuits.be">FlossCal</a>
+        <a href="/calendar">FlossCal</a>
       </li>
       <li id="technical">
-        <a href="http://technical.inuits.be">Technical</a>
+        <a href="/content/technical">Technical</a>
       `</li>
     </ul>
     </div>
