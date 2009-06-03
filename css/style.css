@@ -113,7 +113,7 @@ body {
 	
 #expertise {
 	margin-top: 36px;
-	padding-top: 5px;
+	padding-top: 10px;
 	margin-bottom: 5px;
 	border-top: 1px solid black;
 	}
@@ -335,6 +335,7 @@ div.node {
 
 .view-Event-Calendar {
 	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #techmenu ul li {
