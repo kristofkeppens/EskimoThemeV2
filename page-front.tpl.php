@@ -84,7 +84,7 @@
         <?php print $recent?>
         <?php endif;?>
         </div>
-        <div class="span-8 last" id="expertise">
+        <div class="span-8" id="expertise">
           <?php if($expertise):?>
           <?php print $expertise?>
           <?php endif;?>
@@ -96,7 +96,7 @@
           <?php print $latestplanet?>
           <?php endif;?>
         </div>
-        <div class="span-8 last" id="twitter">
+        <div class="span-8" id="twitter">
           <?php if($twitter):?>
           <?php print $twitter?>
           <?php endif;?>
