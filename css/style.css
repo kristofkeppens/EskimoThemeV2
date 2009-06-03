@@ -97,10 +97,13 @@ body {
 }
 
 #twitter {
-	margin-top: 5px;
 	background-image: url("../images/Twitter.png");
 	background-repeat: no-repeat;
 	background-position: top left;
+	margin-top: 36px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	border-top: 1px solid black;
 	}
 	
 #twitter .content {
@@ -109,10 +112,10 @@ body {
 	}
 	
 #expertise {
+	margin-top: 36px;
 	padding-top: 5px;
 	margin-bottom: 5px;
 	border-top: 1px solid black;
-	border-bottom: 1px solid black;
 	}
 
 #links {
@@ -190,6 +193,15 @@ body {
 }
 
 #recentblog a{
+	color: black;
+}
+
+#recentplanet h3{
+	padding-left: 5px;
+	border-bottom: solid 1px black;
+}
+
+#recentplanet a{
 	color: black;
 }
 	
