@@ -98,7 +98,7 @@ body {
 
 #twitter {
 	margin-top: 5px;
-	background-image: url("../images/Twitter.png");
+	background-image: url("../images/twitter.png");
 	background-repeat: no-repeat;
 	background-position: top left;
 	}
@@ -135,7 +135,7 @@ body {
 	color: white;
 	font-size: 30px;
 	text-decoration: none;
-	padding-left: 75px;
+	padding-left: 85px;
 }
 
 #planet {
@@ -144,13 +144,13 @@ body {
 }
 
 #floss {
-	background-image: url("../images/images/ButtonLinks_13.png");
+	background-image: url("../images/images/images/icebutton_13.png");
 	background-repeat: no-repeat;
 }
 
 #technical {
 	background-repeat: no-repeat;
-	background-image: url("../images/images/ButtonLinks_15.png");
+	background-image: url("../images/images/images/icebutton_15.png");
 }
 
 #block-views-Latestnews-block_1 h3 {
@@ -352,4 +352,8 @@ div.node {
 .sharomaticbutton {
 	float:right;
 	padding-bottom: 5px;
+}
+
+#block-block-1 h3 {
+	padding-top: 0;
 }

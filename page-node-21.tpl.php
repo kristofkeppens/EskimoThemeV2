@@ -22,27 +22,28 @@
 <body id="body" class="<?php print $body_classes;?>">
 
   <div class="container" id="main-container">
-    <div class="container" id="header-container">
+   <div class="container" id="header-container">
       <div class="span-12" id="logo">
+        <a href="/"><img src="<?php print $path;?>images/Logo.png" alt="Inuits.be" /></a>
       </div>
       <div class="span-12 last" id="menu">
       <div class="span-4">
         <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
           <li>
             <a href="/blog">News</a>
           </li>
           <li>
             <a href="/content/vision">Vision</a>
           </li>
+          <li>
+            <a href="/content/believers">Believers</a>
+          </li>
         </ul>
       </div>
       <div class="span-4">
         <ul>
           <li>
-            <a href="/content/believers">Believers</a>
+            <a href="/content/benefits">Benefits</a>
           </li>
           <li>
             <a href="/content/people">People</a>
@@ -54,9 +55,7 @@
       </div>
       <div class="span-4 last">
         <ul>
-          <li>
-            <a href="/content/benefits">Benefits</a>
-          </li>
+
           <li>
             <a href="/contact">Contact</a>
           </li>

@@ -22,7 +22,7 @@
 <body id="body" class="<?php print $body_classes;?>">
 
   <div class="container" id="main-container">
-   <div class="container" id="header-container">
+    <div class="container" id="header-container">
       <div class="span-12" id="logo">
         <a href="/"><img src="<?php print $path;?>images/Logo.png" alt="Inuits.be" /></a>
       </div>
@@ -66,7 +66,7 @@
     <div class="span-24 last" id="wolfseyes">
     </div>
     <div class="container" id="contentcontainer">
-      <div class="span-24 last" id="content">
+      <div class="span-19" id="content">
        <?php
       if ($breadcrumb != '') {
         print $breadcrumb;
@@ -79,12 +79,20 @@
       if ($messages != '') {
         print '<div id="messages">'. $messages .'</div>';
       }
-          
+      
+      if ($title != '') {
+        print '<h2 class="title">'. $title .'</h2>';
+      }      
 
       print $help; // Drupal already wraps this one in a class      
 
       print $content;
     ?>
+      </div>
+      <div class="span-5 last" id="blogs">
+        <?php if($blogs):?>
+        <?php print $blogs?>
+        <?php endif;?>
       </div>
     </div>
     </div>
