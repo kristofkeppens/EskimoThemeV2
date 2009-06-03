@@ -78,22 +78,31 @@
         <?php print $news?>
         <?php endif;?>
       </div>
-      <div class="span-8" id="recentblog">
+      <div>
+        <div class="span-8" id="recentblog">
         <?php if($recent):?>
         <?php print $recent?>
         <?php endif;?>
-      </div>
-      <div class="span-8 last" id="middlecontainer">
-        <div class="span-8" id="expertise">
+        </div>
+        <div class="span-8 last" id="expertise">
           <?php if($expertise):?>
           <?php print $expertise?>
+          <?php endif;?>
+        </div>
+      </div>
+      <div>
+        <div class="span-8" id="recentplanet">
+          <?php if($latestplanet):?>
+          <?php print $latestplanet?>
           <?php endif;?>
         </div>
         <div class="span-8 last" id="twitter">
           <?php if($twitter):?>
           <?php print $twitter?>
           <?php endif;?>
-        </div>
+        </div>      
+      </div>
+
       </div>
     </div>
     <div class="span-8 last" id="links">
