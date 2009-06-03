@@ -19,7 +19,6 @@
 
 #logo {
 	height: 120px;
-	background: url("../images/Logo.png");
 }
 
 body {
@@ -348,4 +347,9 @@ div.node {
 
 #block-block-1 a:link, #block-block-1 a:visited, #block-block-1 a:hover {
 	color: rgb(200,200,200);
+}
+
+.sharomaticbutton {
+	float:right;
+	padding-bottom: 5px;
 }

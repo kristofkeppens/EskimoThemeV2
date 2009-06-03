@@ -55,7 +55,7 @@
       <div class="span-4 last">
         <ul>
           <li>
-            <a href="/content/rolling-out-open-source-masses">Benefits</a>
+            <a href="/content/benefits">Benefits</a>
           </li>
           <li>
             <a href="/contact">Contact</a>

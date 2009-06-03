@@ -24,6 +24,7 @@
   <div class="container" id="main-container">
     <div class="container" id="header-container">
       <div class="span-12" id="logo">
+        <img src="<?php print $path;?>images/Logo.png" alt="Inuits.be" />
       </div>
       <div class="span-12 last" id="menu">
       <div class="span-4">
@@ -64,39 +65,52 @@
       </div>
       </div>
     </div>
-    <div class="span-24 last" id="wolfseyes">
+
+    <div class="span-24 last" id="viewanker">
+      <?php if($viewanker):?>
+      <?php print $viewanker?>
+      <?php endif;?>
     </div>
     <div class="container">
-      <div class="span-24 last">
-        <?php if($tags):?>
-        <?php print $tags?>
+    <div class="span-16" id="rightcontainer">
+      <div class="span-16" id="news">
+        <?php if($news):?>
+        <?php print $news?>
         <?php endif;?>
       </div>
-      <div class="span-5" id="techmenu">
-        <?php if($techmenu):?>
-        <?php print $techmenu?>
+      <div class="span-8" id="recentblog">
+        <?php if($recent):?>
+        <?php print $recent?>
         <?php endif;?>
       </div>
-      <div class="span-19 last" id="content">
-      <?php
-      
-      if ($tabs != '') {
-        print '<div class="tabs">'. $tabs .'</div>';
-      }
-
-      if ($messages != '') {
-        print '<div id="messages">'. $messages .'</div>';
-      }
-      
-      if ($title != '') {
-        print '<h2 class="title">'. $title .'</h2>';
-      }      
-
-      print $help; // Drupal already wraps this one in a class      
-
-      print $content;
-    ?>
+      <div class="span-8 last" id="middlecontainer">
+        <div class="span-8" id="expertise">
+          <?php if($expertise):?>
+          <?php print $expertise?>
+          <?php endif;?>
+        </div>
+        <div class="span-8 last" id="twitter">
+          <?php if($twitter):?>
+          <?php print $twitter?>
+          <?php endif;?>
+        </div>
       </div>
+    </div>
+    <div class="span-8 last" id="links">
+    <ul>
+      <li id="planet">
+        <a href="/aggregator/categories/2">Planet</a>
+      </li>
+      <li id="floss">
+        <a href="/calendar">Events</a>
+      </li>
+      <li id="technical">
+        <a href="/content/technical">Technical</a>
+      `</li>
+    </ul>
+    </div>
+    <div class="span-8 last">
+    </div>
     </div>
   </div>
   <div class="container">

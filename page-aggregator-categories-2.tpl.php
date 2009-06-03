@@ -55,7 +55,7 @@
       <div class="span-4 last">
         <ul>
           <li>
-            <a href="/content/benefits">Benefits</a>
+            <a href="/content/rolling-out-open-source-masses">Benefits</a>
           </li>
           <li>
             <a href="/contact">Contact</a>
@@ -66,20 +66,13 @@
     </div>
     <div class="span-24 last" id="wolfseyes">
     </div>
-    <div class="container">
-      <div class="span-24 last">
-        <?php if($tags):?>
-        <?php print $tags?>
-        <?php endif;?>
-      </div>
-      <div class="span-5" id="techmenu">
-        <?php if($techmenu):?>
-        <?php print $techmenu?>
-        <?php endif;?>
-      </div>
-      <div class="span-19 last" id="content">
-      <?php
-      
+    <div class="container" id="contentcontainer">
+      <div class="span-19" id="content">
+       <?php
+      if ($breadcrumb != '') {
+        print $breadcrumb;
+      }
+
       if ($tabs != '') {
         print '<div class="tabs">'. $tabs .'</div>';
       }
@@ -97,6 +90,12 @@
       print $content;
     ?>
       </div>
+      <div class="span-5 last" id="blogs">
+        <?php if($blogs):?>
+        <?php print $blogs?>
+        <?php endif;?>
+      </div>
+    </div>
     </div>
   </div>
   <div class="container">

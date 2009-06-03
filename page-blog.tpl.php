@@ -66,20 +66,13 @@
     </div>
     <div class="span-24 last" id="wolfseyes">
     </div>
-    <div class="container">
-      <div class="span-24 last">
-        <?php if($tags):?>
-        <?php print $tags?>
-        <?php endif;?>
-      </div>
-      <div class="span-5" id="techmenu">
-        <?php if($techmenu):?>
-        <?php print $techmenu?>
-        <?php endif;?>
-      </div>
-      <div class="span-19 last" id="content">
-      <?php
-      
+    <div class="container" id="contentcontainer">
+      <div class="span-24 last" id="content">
+       <?php
+      if ($breadcrumb != '') {
+        print $breadcrumb;
+      }
+
       if ($tabs != '') {
         print '<div class="tabs">'. $tabs .'</div>';
       }
@@ -87,16 +80,14 @@
       if ($messages != '') {
         print '<div id="messages">'. $messages .'</div>';
       }
-      
-      if ($title != '') {
-        print '<h2 class="title">'. $title .'</h2>';
-      }      
+          
 
       print $help; // Drupal already wraps this one in a class      
 
       print $content;
     ?>
       </div>
+    </div>
     </div>
   </div>
   <div class="container">

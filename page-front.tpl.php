@@ -24,6 +24,7 @@
   <div class="container" id="main-container">
     <div class="container" id="header-container">
       <div class="span-12" id="logo">
+       <a href="/"> <img src="<?php print $path;?>images/Logo.png" alt="Inuits.be" /></a>
       </div>
       <div class="span-12 last" id="menu">
       <div class="span-4">
@@ -55,7 +56,7 @@
       <div class="span-4 last">
         <ul>
           <li>
-            <a href="/content/rolling-out-open-source-masses">Benefits</a>
+            <a href="/content/benefits">Benefits</a>
           </li>
           <li>
             <a href="/contact">Contact</a>
@@ -98,10 +99,10 @@
     <div class="span-8 last" id="links">
     <ul>
       <li id="planet">
-        <a href="/aggregator/sources/1">Planet</a>
+        <a href="/aggregator/categories/2">Planet</a>
       </li>
       <li id="floss">
-        <a href="/calendar">FlossCal</a>
+        <a href="/calendar">Events</a>
       </li>
       <li id="technical">
         <a href="/content/technical">Technical</a>
