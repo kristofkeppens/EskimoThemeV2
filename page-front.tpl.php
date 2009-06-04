@@ -114,6 +114,9 @@
         <a href="/content/technical">Technical</a>
       `</li>
     </ul>
+    <div id="identica">
+      <a href="http://identi.ca/inuits"><img src="/sites/default/files/logoidentica.png"></a>
+    </div>
     </div>
     <div class="span-8 last">
     </div>
