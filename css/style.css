@@ -14,7 +14,7 @@
 
 #wolfseyes {
 	height: 120px;
-	background: url("../images/groteogen.png");
+	background: url("../images/groteogen.jpg");
 }
 
 #logo {
@@ -82,7 +82,7 @@ body {
 	
 #viewanker {
 	height: 350px;
-	background-image: url("../images/images/viewanker_05.png");
+	background-image: url("../images/images/viewanker_05.jpg");
 	color:white;
 }
 
@@ -369,4 +369,8 @@ div.node {
 
 #block-block-1 h3 {
 	padding-top: 0;
+}
+
+#block-block-1 div {
+	font-size: 12px;
 }

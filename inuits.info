@@ -19,3 +19,4 @@ regions[tags] = Tags
 regions[techmenu] = TechMenu
 regions[blogs] = Blogs
 regions[latestplanet] = planet
+regions[footer] = Footer
