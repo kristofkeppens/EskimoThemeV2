@@ -1,0 +1,21 @@
+name = inuits
+description = the inuits drupal site theme
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = blueprint/screen.css
+stylesheets[print][] = blueprint/print.css
+stylesheets[all][] = css/blueprint.css
+stylesheets[all][] = css/style.css
+
+regions[news] = News
+regions[expertise] = Expertise
+regions[twitter] = Twitter
+regions[recent] = Recent Blogposts
+regions[viewanker] = View anker
+regions[right] = Right sidebar
+regions[presentations] = Presentations
+regions[tags] = Tags
+regions[techmenu] = TechMenu
+regions[blogs] = Blogs
+regions[latestplanet] = planet
