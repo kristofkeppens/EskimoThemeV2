@@ -99,7 +99,7 @@
   </div>
   <div class="container">
     <div class="span-24 last" id="footer">
-      Copyright - 2009 - Inuits.be 
+      <?php print $footer?>
     </div>
   </div>
 <?php print $closure;?>
