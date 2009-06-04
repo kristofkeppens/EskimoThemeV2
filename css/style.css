@@ -79,6 +79,19 @@ body {
 	Front page
 	
 	*/
+
+a {
+	outline: 0;
+}
+
+.more {
+	text-align: right;
+}
+
+#contact-map {
+	float: right;
+	padding-right: 15px;
+}
 	
 #viewanker {
 	height: 350px;
@@ -97,7 +110,7 @@ body {
 }
 
 #twitter {
-	background-image: url("../images/Twitter.png");
+	background-image: url("../images/Twitter.jpg");
 	background-repeat: no-repeat;
 	background-position: top left;
 	margin-top: 36px;
@@ -139,21 +152,22 @@ body {
 	font-size: 30px;
 	text-decoration: none;
 	padding-left: 85px;
+	outline: 0;
 }
 
 #planet {
-	background-image: url("../images/images/images/icebutton_09.png");
+	background-image: url("../images/icebutton_09.jpg");
 	background-repeat: no-repeat;
 }
 
 #floss {
-	background-image: url("../images/images/images/icebutton_13.png");
+	background-image: url("../images/icebutton_13.jpg");
 	background-repeat: no-repeat;
 }
 
 #technical {
 	background-repeat: no-repeat;
-	background-image: url("../images/images/images/icebutton_15.png");
+	background-image: url("../images/icebutton_15.jpg");
 }
 
 #block-views-Latestnews-block_1 h3 {
