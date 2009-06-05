@@ -105,17 +105,18 @@
     <div class="span-8 last" id="links">
     <ul>
       <li id="planet">
-        <a href="/aggregator/categories/2">Planet</a>
+        <a href="/aggregator/categories/2"></a>
       </li>
       <li id="floss">
-        <a href="/calendar">Events</a>
+        <a href="/calendar"></a>
       </li>
       <li id="technical">
-        <a href="/content/technical">Technical</a>
+        <a href="/content/technical"></a>
       `</li>
     </ul>
     <div id="identica">
       <a href="http://identi.ca/inuits"><img src="/sites/default/files/logoidentica.png"></a>
+      <a href="http://twitter.com/inuits"><img src="/sites/default/files/twitterlogo.png"></img></a>
     </div>
     </div>
     <div class="span-8 last">
