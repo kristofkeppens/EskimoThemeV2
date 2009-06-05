@@ -261,6 +261,14 @@ a {
 	color: rgb(25,25,20);
 }
 
+a, a:link {
+	color: rgb(160,160,160);
+	}
+	
+a:visited, a:hover {
+	color: rgb(25,25,20);
+	}
+
 .block h3{
 	padding-top: 1em;
 	padding-left: 5px;
