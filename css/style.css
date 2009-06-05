@@ -1,5 +1,3 @@
-@CHARSET "UTF-8";
-
 /*
 
 	Stylesheet for inuits.be site.
@@ -195,10 +193,6 @@ a {
 
 #block-views-Latestnews-block_1 a{
 	color: black;
-}
-
-#block-views-Latestnews-block_1 a:hover {
-	color: grey;
 }
 
 #recentblog h3{
